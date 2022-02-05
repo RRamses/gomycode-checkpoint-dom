@@ -1,0 +1,193 @@
+body{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 15px;
+    padding-left: 80px;
+}
+body.h1{
+   
+    font-size: 20px;
+}
+
+.bigbox{
+    border: 1px solid white;
+    height: 500px;
+    width: 1200px;
+    background-color: white;
+    display: block;
+
+}
+
+.titres{
+    width: 100%;
+    display: flex;
+   
+    justify-content: space-around;
+}
+.contenans{
+    display: block;
+}
+.contener{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.article{
+    width: 300px;
+    border: 1px solid red;
+    display: flex;
+}
+.image-article{
+    border: 1px solid blue;
+        height: 145px;
+        width: 60%;   
+        
+       
+}
+.img-article{
+    object-fit: cover;
+    height: 145px;
+   width: 100%;
+    
+}
+.info-article{
+    display: block;
+    width: 40%;
+    border: 1px solid green;
+    padding-left: 20px;
+}
+
+.btn-sup{
+    color: red;
+    cursor: pointer;
+    background-color: white;
+    border: white;
+}
+
+.quantite{
+    width: 300px;
+    border: 1px solid rgb(0, 238, 255);
+    display: flex;
+
+}
+.Q-article{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 35px;
+   
+
+}
+
+.Qproduct{
+      height: 50px;
+    width: 90px;
+    border: 1px solid rgb(78, 175, 170);
+    text-align: center;
+    padding-top: 10px; 
+}
+
+.moins{
+    height: 50px;
+    width: 90px;   
+}
+.plus{
+    height: 50px;
+    width: 90px;
+}
+
+.btn-moins{
+    height: 45px;
+    width: 45px;
+    background-color: gray;
+    border-radius: 50px;
+    color: white;
+    margin: 5px;
+
+}
+
+
+
+.btn-plus{ 
+     height: 45px;
+    width: 45px;
+    background-color: gray;
+    border-radius: 50px;
+    color: white;
+    margin: 5px;
+}
+
+.prix-unitaire {
+  
+   width: 600px;
+   border: 1px solid rgb(110, 35, 35);
+   display: flex;
+   justify-content: space-around;
+  
+}
+
+.prixA{
+    height: 50px;
+    width: 60%;
+    font-size: 20px;
+    margin: 35px;
+}
+
+.sous-total{
+    width: 300px;
+   
+}
+.stA{ 
+    height: 50px;
+    width: 60%;
+    color: blue;
+    margin: 35px; 
+ 
+}
+
+.bouton{
+    display: flex;
+   justify-content: space-around;
+    border: 1px solid firebrick;
+}
+.Ajout-Article{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(113, 179, 233);
+    color: white;
+    margin-top: 30px;
+    border-radius: 15px; 
+}
+
+.search-price{
+    width: 100px;
+    height: 25px;
+    padding-left: 5px;
+    border: 1px solid black;
+   margin-right: 500px;
+   margin-top: 20px;
+
+}
+.search-product{
+    height: 25px;
+    width: 200px;
+    font-size: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.Prix-total{
+    height: 100px;
+    width: 220px;
+    margin-top: 15px;
+    margin-left: 500px;
+    
+     font-size: 30px;
+     color: white;
+     display: flex;
+ }
